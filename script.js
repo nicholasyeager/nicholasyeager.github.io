@@ -1,0 +1,1 @@
+//adding basic JS functionality
