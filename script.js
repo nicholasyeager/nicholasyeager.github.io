@@ -11,7 +11,7 @@ function buttonFunc() {
     location.appendChild(newImage); // Append image inside .header div
 
     // Create and play the audio
-    const audio = new Audio("One Winged Angel.mp3")
+    const audio = new Audio("https://github.com/nicholasyeager/nicholasyeager.github.io/blob/main/One%20Winged%20Angel.mp3");
     audio.play();
 
     // Stop audio and remove image after 10 seconds
