@@ -1,3 +1,57 @@
-/*
-CSS basic file
-*/
+body {
+    background-color: #808080;
+    font-family: "Roboto", sans-serif; /* Apply Roboto globally */
+  }
+  
+  p, ul, button {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .header {
+    color: #3F4B44;
+    font-family: fantasy;
+  }
+  
+  .main-section {
+    padding: 10px;
+    background-color: #36BB6D;
+    border: 5px solid #B56762;
+  }
+  
+  .main-text {
+    font-size: 20px;
+  }
+  
+  #W {
+    font-size: 1.2rem;
+  }
+  
+  .more-stuff {
+    background-color: #B56762;
+    padding: 20px;
+    width: 500px;
+    border: 5px solid #47F58F;
+  }
+  
+  .about {
+    font-size: 19px;
+  }
+  
+  .note {
+    font-size: 10px;
+  }
+  
+  #bt1 {
+    color: black;
+    width: 75px;
+    height: 40px;
+    background-color: #64A17D;
+    border: 2px solid black; /* Fixed border */
+  }
+  
+  #bt1:hover {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+  }
+  
