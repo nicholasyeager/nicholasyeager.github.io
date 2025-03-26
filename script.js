@@ -10,14 +10,16 @@ function buttonFunc() {
 
     location.appendChild(newImage); // Append image inside .header div
 
-    // Create and play the audio
+    /*
+    // Create and play the audio(currently not working)
     const audio = new Audio("https://soundcloud.com/pamero/one-winged-angel-1?si=332746ef5a3040818f425a099f5d8e55&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing");
     audio.play();
+    */
 
     // Stop audio and remove image after 10 seconds
     setTimeout(() => {
-        audio.pause();
-        audio.currentTime = 0; // Reset audio
+        //audio.pause();
+        //audio.currentTime = 0; // Reset audio
         newImage.remove(); // Remove the image
     }, 10000);
 }
