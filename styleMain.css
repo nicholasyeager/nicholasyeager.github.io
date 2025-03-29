@@ -8,7 +8,14 @@ html {
     box-sizing: border-box;
 }
 
+/* Ensure navbar does not cover content */
 body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Push all content below navbar */
+.content {
     margin-left: 20px;
     margin-top: 80px;
 }
@@ -18,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;  /* Adjust padding for better spacing */
+    padding: 20px 20px;
     background-color: #222;
     color: white;
     position: fixed;
@@ -26,8 +33,6 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    margin-left: 0px;
-    margin-top: 0px;
 }
 
 /* Logo */
@@ -89,8 +94,13 @@ body {
         display: block;
     }
 
+    .content {
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+
     #about {
-        font-size: 16px;  /* Adjust font size for smaller screens */
+        font-size: 16px;
     }
 }
 
@@ -113,20 +123,20 @@ body {
 }
 
 #about h2 {
-    font-size: 32px;  /* Larger font size for the section header */
-    margin-bottom: 15px;  /* Adds space below the header */
+    font-size: 32px;
+    margin-bottom: 15px;
 }
 
 #about p {
-    font-size: 18px;  /* Adjust font size for paragraph */
+    font-size: 18px;
 }
 
 .aboutText {
     text-align: center;
     width: 100%;
-    max-width: 800px; 
-    border: 2px solid #d32222; 
+    max-width: 800px;
+    border: 2px solid #d32222;
     border-radius: 5px;
-    padding: 15px; 
-    margin: 20px auto; 
+    padding: 15px;
+    margin: 20px auto;
 }
