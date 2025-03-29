@@ -13,7 +13,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 30px 20px;
     background-color: #222;
     color: white;
     position: fixed;
