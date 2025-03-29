@@ -47,7 +47,7 @@ html {
 }
 
 .nav-links a:hover {
-    color: #ff9900;
+    color: hsl(0, 72%, 48%);
 }
 
 /* Hamburger Menu for Mobile */
