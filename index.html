@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" cotent="Nicholas Yeager">
-    <title>Web Development Test</title>
+    <title>Web Development Test: Pricing Card</title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="style.CSS">
 </head>
 <body>
-    <div class="header">
-        <h1>This is a test of sorts</h1>
-    </div>
-
-    <div class="main-section">
-        <p class="main-text">This is a main text body. I love programming and web development. I am a current sophomore at the University of Alabama studying computer science and philosophy.</p>
-        <p>Here are some things that I like:</p>
-        <ul class="main-list">
-            <li id="SW">Star Wars</li>
-            <li id="D">Dune</li>
-            <li id="W">Mr. Robot</li>
-        </ul>
-    </div>
-
-    <div class="more-stuff">
-        <p class="about">I can't wait to continue to learn and grow as a web dev!</p>
-        <p class="note">ps. try this button</p>
-        <button id="bt1" onclick="buttonFunc()">Try me</button>
+    <div id ="card">
+        <div id = "top">
+          <h2 id = "heading">Join our community</h2>
+          <h4 id = "greentxt">30-day hassle-free money back gurantee</h4>
+          <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+        <div id = "bottom">
+          <div id = "btLeft">
+            <h4 id = "subscription">Monthly subscription</h4>
+            <div id = "price-container">
+              <div id = "price">$29</div>
+              <div id = "price-freq">Per month</div>
+            </div>
+            <p id = "pitch">Full access for less than $1 a day</p>
+            <button onclick = "alertUser()">Sign Up</button>
+          </div><div id = "btright">
+            <h4>Why us</h4>
+            <ul id = "main-list">
+              <li>Tutorials by industry experts</li>
+              <li>Peer & expert code review</li>
+              <li>Coding excersises</li>
+              <li>Access to our Github repository</li>
+              <li>Community forum</li>
+              <li>Flashcard decks</li>
+              <li>New videos every week</li>
+            </ul>
+          </div>
+        </div>
     </div>
 
     <!-- External JavaScript -->
