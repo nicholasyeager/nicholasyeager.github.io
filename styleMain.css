@@ -95,3 +95,10 @@ html {
 #about {
     margin-top: 80px;
 }
+
+.aboutText {
+    text-align: center;
+    width: 800px;
+    border: 2px #d32222;
+    border-radius: 5px;
+}
