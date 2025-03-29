@@ -8,6 +8,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin-left: 20px;
+}
+
 /* Navbar Styling */
 .navbar {
     display: flex;
@@ -21,6 +25,7 @@ html {
     top: 0;
     left: 0;
     z-index: 1000;
+    margin-left: 0px;
 }
 
 /* Logo */
@@ -94,6 +99,11 @@ html {
 
 #about {
     margin-top: 80px;
+    font-size: 18px;
+    line-height: 1.6; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .aboutText {
