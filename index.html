@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" cotent="Nicholas Yeager">
-    <title>Web Development Test: Pricing Card</title>
+    <title>Nicholas Yeager Personal Website</title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,40 +12,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="styleMain.CSS">
 </head>
 <body>
-    <div id ="card">
-        <div id = "top">
-          <h2 id = "heading">Join our community</h2>
-          <h4 id = "greentxt">30-day hassle-free money back gurantee</h4>
-          <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
-        </div>
-        <div id = "bottom">
-          <div id = "btLeft">
-            <h4 id = "subscription">Monthly subscription</h4>
-            <div id = "price-container">
-              <div id = "price">$29</div>
-              <div id = "price-freq">Per month</div>
-            </div>
-            <p id = "pitch">Full access for less than $1 a day</p>
-            <button onclick = "alertUser()">Sign Up</button>
-          </div><div id = "btright">
-            <h4>Why us</h4>
-            <ul id = "main-list">
-              <li>Tutorials by industry experts</li>
-              <li>Peer & expert code review</li>
-              <li>Coding excersises</li>
-              <li>Access to our Github repository</li>
-              <li>Community forum</li>
-              <li>Flashcard decks</li>
-              <li>New videos every week</li>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Nicholas Yeager</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-          </div>
-        </div>
-    </div>
+            <div class="hamburger-menu">&#9776;</div>
+        </nav>
+    </header>
 
-    <!-- External JavaScript -->
-    <script src="script.js"></script>
+    <!-- Sections -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio website!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+    </section>
+
+    <script src="scriptMain.js"></script>
 </body>
 </html>
