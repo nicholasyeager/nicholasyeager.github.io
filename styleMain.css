@@ -10,6 +10,7 @@ html {
 
 body {
     margin-left: 20px;
+    margin-top: 80px;
 }
 
 /* Navbar Styling */
@@ -98,17 +99,20 @@ body {
 }
 
 #about {
-    margin-top: 80px;
     font-size: 18px;
-    line-height: 1.6; 
+    line-height: 1.6;
     max-width: 800px;
-    margin: 0 auto;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aboutText {
     text-align: center;
-    width: 800px;
-    border: 2px #d32222;
+    width: 100%;
+    max-width: 800px; 
+    border: 2px solid #d32222; 
     border-radius: 5px;
+    padding: 15px; 
+    margin: 20px auto; 
 }
