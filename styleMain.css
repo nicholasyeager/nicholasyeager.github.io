@@ -106,7 +106,7 @@ body {
 }
 
 .dogImage {
-    width: 100%; 
+    width: 50%; 
     max-width: 500px;  
     height: auto; 
     border-radius: 8px;  
