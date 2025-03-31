@@ -123,8 +123,6 @@ body {
 
 #projects {
     background-color: #bbb;
-    margin-left: 10px;
-    padding: 15px;
 }
 
 #skills {
@@ -156,8 +154,9 @@ body {
     margin: 20px auto;
 }
 
-#projHead {
-    margin-left: 0px;
+#projList {
+    margin-left: 10px;
+    padding: 15px;
 }
 
 #learning {
