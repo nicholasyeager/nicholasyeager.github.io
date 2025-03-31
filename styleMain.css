@@ -180,7 +180,9 @@ body {
 }
 
 #reactImg {
-    max-width: 200px;
+    max-width: 150px; /* Prevents it from getting too large */
+    width: 80%; /* Scales with the container */
     height: auto;
-    align-self: center;
+    display: block;
+    margin: 10px auto;
 }
