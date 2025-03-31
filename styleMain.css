@@ -108,12 +108,12 @@ body {
     }
 }
 
-.dogImage {
-    width: 50%; 
+.dogImage, .bamaImage {
+    width: 45%; 
     max-width: 500px;  
     height: auto; 
     border-radius: 8px;  
-    display: block;
+    display: inline-block;
     margin-top: 20px;
 }
 
