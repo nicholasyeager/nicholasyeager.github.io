@@ -19,6 +19,8 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 80px; /* For navbar clearance */
+    gap: 20px;
+    padding: 20px;
 }
 
 /* Navbar Styling */
@@ -143,18 +145,20 @@ body {
 }
 
 #learning {
-    width: 200px;
-    max-height: 800px;
+    flex: 1; /* Allows the box to grow */
+    min-height: 80vh; /* Makes it taller */
     border: 2px solid #222;
     border-radius: 8px;
-    padding: 15px;
-    margin-right: 30px;
+    padding: 20px;
     background-color: #8f8b8b;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 30px;
+    display: flex;
+    flex-direction: column; /* Stack content inside */
 }
 
 /* Your main content container */
 .mainContent {
-    flex: 1; /* Takes up remaining space */
+    flex: 2; /* Takes up remaining space */
+    padding: 20px;
 }
