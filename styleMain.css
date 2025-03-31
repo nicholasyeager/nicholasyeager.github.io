@@ -108,13 +108,17 @@ body {
     }
 }
 
+.imageContainer {
+    display: flex;
+    justify-content: center;  /* Centers the images */
+    gap: 20px;  /* Adds spacing between images */
+}
+
 .dogImage, .bamaImage {
     width: 45%; 
     max-width: 500px;  
     height: auto; 
     border-radius: 8px;  
-    display: inline-block;
-    margin-top: 20px;
 }
 
 #about {
