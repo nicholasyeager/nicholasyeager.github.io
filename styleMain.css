@@ -144,7 +144,7 @@ body {
     font-size: 18px;
 }
 
-.aboutText, #projText {
+.aboutText {
     text-align: center;
     width: 100%;
     max-width: 800px;
@@ -152,6 +152,11 @@ body {
     border-radius: 5px;
     padding: 15px;
     margin: 20px auto;
+}
+
+#projText {
+    margin-left: 10px;
+    padding: 15px;
 }
 
 #learning {
