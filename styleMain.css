@@ -123,6 +123,8 @@ body {
 
 #projects {
     background-color: #bbb;
+    margin-left: 10px;
+    padding: 15px;
 }
 
 #skills {
@@ -152,11 +154,6 @@ body {
     border-radius: 5px;
     padding: 15px;
     margin: 20px auto;
-}
-
-#projText {
-    margin-left: 10px;
-    padding: 15px;
 }
 
 #learning {
