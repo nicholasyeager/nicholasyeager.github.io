@@ -144,7 +144,7 @@ body {
     font-size: 18px;
 }
 
-.aboutText {
+.aboutText, #projText {
     text-align: center;
     width: 100%;
     max-width: 800px;
@@ -156,7 +156,7 @@ body {
 
 #learning {
     flex: 1; /* Allows the box to grow */
-    min-height: 80vh; /* Makes it taller */
+    /*min-height: 80vh; Makes it taller */
     border: 2px solid #222;
     border-radius: 8px;
     padding: 20px;
@@ -177,6 +177,7 @@ body {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 #reactImg {
