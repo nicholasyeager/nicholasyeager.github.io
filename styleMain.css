@@ -156,6 +156,10 @@ body {
     margin: 20px auto;
 }
 
+#projHead {
+    margin-left: 0px;
+}
+
 #learning {
     flex: 1; /* Allows the box to grow */
     /*min-height: 80vh; Makes it taller */
