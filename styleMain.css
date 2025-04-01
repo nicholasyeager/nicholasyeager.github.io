@@ -227,6 +227,7 @@ body {
     color: white;
     border: none;
     padding: 12px 24px;
+    margin-top: 20px;
     font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
