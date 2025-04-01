@@ -163,22 +163,25 @@ body {
     padding: 15px;
 }
 
-#gitLink {
-    margin-top: 15px;
-    font-size: 20px;
-    color: black;
+#gitContainer {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
 }
 
 #gitImg {
-    max-width: 30px; /* Prevents it from getting too large */
-    width: 80%; /* Scales with the container */
+    width: 30px;
     height: auto;
-    display: block;
-    margin: 10px auto;
+}
+
+#gitLink {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
 }
 
 #gitLink:hover {
-    color:#d32222
+    color: #d32222;
 }
 
 #techSkills, #softSkills {
