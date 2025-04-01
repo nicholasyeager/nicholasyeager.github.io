@@ -163,6 +163,11 @@ body {
     padding: 15px;
 }
 
+#techSkills, #softSkills {
+    margin-left: 10px;
+    padding: 15px;
+}
+
 #learning {
     flex: 1; /* Allows the box to grow */
     /*min-height: 80vh; Makes it taller */
