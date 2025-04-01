@@ -2,6 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const contactButton = document.getElementById("contactButton");
     const modalOverlay = document.getElementById("modalOverlay");
     const closeModal = document.getElementById("closeModal");
+    const menu = document.querySelector(".nav-links");
+    const hamburger = document.querySelector(".hamburger-menu");
+ 
+    hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
 
     // Show the modal when the contact button is clicked
     contactButton.addEventListener("click", function () {
