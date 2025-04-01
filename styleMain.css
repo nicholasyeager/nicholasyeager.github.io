@@ -166,7 +166,8 @@ body {
 #gitContainer {
     display: flex; 
     align-items: center; 
-    gap: 10px; 
+    gap: 10px;
+    margin-left: 10px;
 }
 
 #gitImg {
@@ -176,7 +177,7 @@ body {
 
 #gitLink {
     font-size: 20px;
-    color: black;
+    color: rgb(116, 68, 134);
     text-decoration: none;
 }
 
