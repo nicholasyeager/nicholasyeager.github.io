@@ -257,15 +257,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
     z-index: 2000;
 }
 
-.modal-overlay.active {
-    opacity: 1;
-    visibility: visible;
+.modal-overlay.hidden {
+    display: none;
+}
+
+.contact-card {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
 }
 
 .contact-card {
@@ -287,7 +291,7 @@ body {
     color: #333;
 }
 
-.hidden {
+.hidden{
     display: none;
 }
 
