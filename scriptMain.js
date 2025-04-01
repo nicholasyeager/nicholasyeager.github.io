@@ -5,18 +5,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Show the modal when the contact button is clicked
     contactButton.addEventListener("click", function () {
-        modalOverlay.classList.add("hidden");
+        modalOverlay.classList.remove("hidden");
     });
 
     // Hide the modal when the close button is clicked
     closeModal.addEventListener("click", function () {
-        modalOverlay.classList.remove("hidden");
+        modalOverlay.classList.add("hidden");
     });
 
-    // Optionally, hide the modal if the user clicks outside the contact card
+    // Hide the modal if the user clicks outside the contact card
     modalOverlay.addEventListener("click", function (event) {
         if (event.target === modalOverlay) {
-            modalOverlay.classList.remove("hidden");
+            modalOverlay.classList.add("hidden");
         }
     });
 });
