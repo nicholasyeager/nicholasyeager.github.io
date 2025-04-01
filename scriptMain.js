@@ -28,6 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     philQuote.addEventListener("click", () => {
-        alert("the button works");
+        clearAll();
     });
 });
+
+function clearAll(){
+    
+}

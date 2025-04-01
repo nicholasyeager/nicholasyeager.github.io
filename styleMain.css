@@ -206,13 +206,14 @@ body {
 }
 
 #philosophy {
+    margin-top: 20px;
     border: 2px solid gold;
     background-color: cyan;
 }
 
 #philQuote {
     background-color: gold;
-    color: cyan;
+    color: black;
     border: none;
     padding: 12px 24px;
     margin-top: 20px;
@@ -226,6 +227,7 @@ body {
 #philQuote:hover {
     cursor: pointer;
     transform: translateY(-2px);
+    background-color: rgb(201, 171, 2);
 }
 
 #philQuote:active {
