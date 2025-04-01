@@ -191,8 +191,7 @@ body {
 }
 
 #learning {
-    flex: 1; /* Allows the box to grow */
-    /*min-height: 80vh; Makes it taller */
+    flex: 1;
     border: 2px solid #222;
     border-radius: 8px;
     padding: 20px;
@@ -200,10 +199,9 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 30px;
     display: flex;
-    flex-direction: column; /* Stack content inside */
+    flex-direction: column; 
 }
 
-/* Your main content container */
 .mainContent {
     flex: 2; /* Takes up remaining space */
     padding: 20px;
@@ -225,17 +223,27 @@ body {
 }
 
 #contactButton {
-  color: black;
-  background-color: #d32222;
-  border-radius: 5px;
-  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
-  border: none;
-  width: 80%;
-  height: 40px;
-  text-align: center;
-  padding: 10px;
-  margin: 30px;
-  font-size: 25px;
+    background-color: #007BFF; /* Blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contactButton:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    cursor: pointer;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+#contactButton:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .modal-overlay {
