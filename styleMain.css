@@ -190,16 +190,46 @@ body {
     padding: 15px;
 }
 
-#learning {
+.sidebox {
     flex: 1;
-    border: 2px solid #222;
     border-radius: 8px;
     padding: 20px;
-    background-color: #8f8b8b;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 30px;
     display: flex;
     flex-direction: column; 
+}
+
+#learning{
+    border: 2px solid #222;
+    background-color: #8f8b8b;
+}
+
+#philosophy {
+    border: 2px solid gold;
+    background-color: cyan;
+}
+
+#philQuote {
+    background-color: gold;
+    color: cyan;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#philQuote:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+#philQuote:active {
+    transform: translateY(0);
 }
 
 .mainContent {

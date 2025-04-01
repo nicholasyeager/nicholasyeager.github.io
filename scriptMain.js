@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const closeModal = document.getElementById("closeModal");
     const menu = document.querySelector(".nav-links");
     const hamburger = document.querySelector(".hamburger-menu");
+    const quoteButton = document.getElementById("philQuote");
  
     hamburger.addEventListener("click", () => {
         menu.classList.toggle("active");
@@ -24,5 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (event.target === modalOverlay) {
             modalOverlay.classList.add("hidden");
         }
+    });
+
+    philQuote.addEventListener("click", () => {
+        alert("the button works");
     });
 });
