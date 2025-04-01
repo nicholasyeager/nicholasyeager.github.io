@@ -1,8 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const menu = document.querySelector(".nav-links");
-    const hamburger = document.querySelector(".hamburger-menu");
+    const contactButton = document.getElementById("contactButton");
+    const modalOverlay = document.getElementById("modalOverlay");
+    const closeModal = document.getElementById("closeModal");
 
-    hamburger.addEventListener("click", () => {
-        menu.classList.toggle("active");
+    // Show the modal when the contact button is clicked
+    contactButton.addEventListener("click", function () {
+        modalOverlay.classList.add("active");
+    });
+
+    // Hide the modal when the close button is clicked
+    closeModal.addEventListener("click", function () {
+        modalOverlay.classList.remove("active");
+    });
+
+    // Optionally, hide the modal if the user clicks outside the contact card
+    modalOverlay.addEventListener("click", function (event) {
+        if (event.target === modalOverlay) {
+            modalOverlay.classList.remove("active");
+        }
     });
 });
