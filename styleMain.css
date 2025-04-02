@@ -313,14 +313,6 @@ body {
 }
 
 .contact-card {
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 8px;
-    width: 90%;
-    max-width: 500px;
-}
-
-.contact-card {
     background: #0056b3;
     padding: 20px 30px;
     border-radius: 8px;
