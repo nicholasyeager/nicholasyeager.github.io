@@ -114,7 +114,7 @@ body {
     gap: 20px;  /* Adds spacing between images */
 }
 
-.dogImage, .bamaImage {
+.dogImage, .meImage {
     width: 45%; 
     max-width: 500px;  
     height: auto; 
