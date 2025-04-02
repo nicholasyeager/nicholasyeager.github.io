@@ -235,6 +235,20 @@ body {
     transform: translateY(0);
 }
 
+#philQuote p {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#philQuote cite {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: gray;
+}
+
 .mainContent {
     flex: 2; /* Takes up remaining space */
     padding: 20px;
