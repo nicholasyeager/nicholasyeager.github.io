@@ -240,6 +240,7 @@ body {
     font-style: italic;
     text-align: center;
     margin: 10px 0;
+    max-width: 220px;
 }
 
 #philQuote cite {
