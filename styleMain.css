@@ -135,7 +135,8 @@ body {
 
 #projUpdate {
     color: #d32222;
-    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 #skills {
