@@ -133,6 +133,11 @@ body {
     background-color: #bbb;
 }
 
+#projUpdate {
+    color: #d32222;
+    font-size: 1.2rem;
+}
+
 #skills {
     background-color: #ddd;
 }
