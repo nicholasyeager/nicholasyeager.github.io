@@ -110,8 +110,8 @@ body {
 
 .imageContainer {
     display: flex;
-    justify-content: center;  /* Centers the images */
-    gap: 20px;  /* Adds spacing between images */
+    justify-content: center;
+    gap: 20px;
 }
 
 .dogImage, .meImage {
@@ -261,7 +261,7 @@ body {
 }
 
 .mainContent {
-    flex: 2; /* Takes up remaining space */
+    flex: 2;
     padding: 20px;
     font-size: 18px;
     line-height: 1.6;
@@ -273,15 +273,15 @@ body {
 }
 
 #reactImg {
-    max-width: 150px; /* Prevents it from getting too large */
-    width: 80%; /* Scales with the container */
+    max-width: 150px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 10px auto;
 }
 
 #contactButton {
-    background-color: #007BFF; /* Blue */
+    background-color: #007BFF;
     color: white;
     border: none;
     padding: 12px 24px;
