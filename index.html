@@ -1,152 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nicholas Yeager">
-    <title>Nicholas Yeager Personal Website</title>
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CM27T5L8TL"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-CM27T5L8TL');
-    </script>
-
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styleMain.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Nicholas Yeager">
+<meta name="description" content="Nicholas Yeager — computer science student at the University of Alabama. Work in AI tooling, data systems, wildfire modeling, and programming languages.">
+<meta name="theme-color" content="#f3f0e7">
+<meta property="og:title" content="Nicholas Yeager — Software & questions">
+<meta property="og:description" content="A personal collection of work in software, data, and AI. Computer science, with a side of philosophy.">
+<meta property="og:type" content="website">
+<title>Nicholas Yeager — Software & questions</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styleMain.css">
+<script src="scriptMain.js" defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CM27T5L8TL"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-CM27T5L8TL');
+</script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">Nicholas Yeager</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger-menu">&#9776;</div>
-        </nav>
-    </header>
-
-    <!-- Sections -->
-    <div class="content">
-        <div class ="mainContent">
-            <section id="about">
-                <h2 class="aboutHeader">About Me</h2>
-                <div class="aboutText">
-                    <p>Welcome to my portfolio website! I am curently an undergraduate 
-                        student studying Computer Science and philosophy at the University of Alabama. I have a special interest
-                        in WebDev and the ethics of Artificial Intelligence. I am currently learning react as a framework for building interactive web applications and improving my understanding of
-                        machine learning models. I enjoy hiking, playing video games, and reading. I also love my dog Kitsune(pictured below).
-                    </p>
-                </div>
-                <div class="imageContainer">
-                    <img src="Kitsune.jpg" alt="my dog Kitsune" class="dogImage">
-                    <img src="me.jpg" alt="a picture of me" class="meImage">
-                </div>
-            </section>
-
-            <section id="projects">
-                <h2 id="projHead">Projects</h2>
-                <p id="projText">My current main endeavor has been this website. However, I am also working on a responsive web application 
-                    to be integrated with this website for functionality, so stay tuned. I have also begun working on gdevelop to create a commercial game.
-                </p>
-                <p id="projUpdate">*UPDATE*</p>
-                <p>I have begun working on porting the farsite Linux application to a web-based GIS system. The application is originally
-                    deprecated and is a c++ library. My main focuses related to this website are:
-                </p>
-                <ul id="projList">
-                    <li>Growing in general Web development</li>
-                    <li>Designing responsive systems</li>
-                    <li>Adding backend database functionality</li>
-                    <li>Working on HTML game design</li>
-                    <li>Local LLM Philosophy Chatbot with NodeJS integration</li>
-                </ul>
-                <p>You can find the link to my Github repository below.</p>
-                <div id="gitContainer">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github icon" id="gitImg">
-                    <a href="https://github.com/nicholasyeager" id="gitLink">Nicholas Yeager</a>
-                </div>
-            </section>
-
-            <section id="skills">
-                <h2>Skills</h2>
-                <p id ="skillText">My main technical skills related to Computer Science include:
-                </p>
-                <ul id="techSkills">
-                    <li>Linux(specifically Ubuntu and Kali) based application development</li>
-                    <li>C++, JavaScript, Clojure, Python, and C programming</li>
-                    <li>Lisp programming</li>
-                    <li>Interpreter Creation</li>
-                    <li>Fullstack web development</li>
-                    <li>Familiarity with agile development, cybersecurity concepts, and version control</li>
-                    <li>Hardware development and assembly programming</li>
-                    <li>Object Oriented Programming and game design</li>
-                    <li>AI integration and development</li>
-                    <li>API creation and integration</li>
-                </ul>
-                <p id="softText">My softskills and general strengths are:
-                </p>
-                <ul id="softSkills">
-                    <li>ability to lead and excel in teams</li>
-                    <li>self-motivated passion for learning and continued academic development</li>
-                    <li>communication, the ability to clearly articulate technical concepts clearly</li>
-                    <li>problem solving and analytical, especially involving optimization and application integration</li>
-                </ul>
-                <p id="skillClose">Overall I would consider myself a valuable addition to any time or workplace.
-                    My desire to excel and grow make me an ideal candidate. I am self-motivated and willing to working
-                    incredibly hard to acheive my goals.
-                </p>
-            </section>
-
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>To get in contact with me just click the button below to email me or reach out through my LinkedIn.</p>
-                <button id="contactButton">Contact Information</button>
-            </section>
-        </div>
-
-        <aside class="sidebar">
-            <div class="sidebox" id="learning">
-                <h3>Currently Learning</h3>
-                <p>Ubuntu based GIS applications</p>
-                <p>React Hooks & Context API</p>
-                <p>Web cybersecurity</p>
-                <p>Database systems(SQL and NoSQL)</p>
-                <p>Operating Systems</p>
-                <p>Ethics of Artificial Intelligence Systems</p>
-                <p>Programming Languages</p>
-                <p>Digital Forensics</p>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 65%"></div>
-                </div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png" alt="react icon" id="reactImg">
-            </div>
-            <div class="sidebox" id="philosophy">
-                <h3>Philosophy Quote of the Day</h3>
-                <button id="philQuote">Click Me for Wisdom</button>
-            </div>
-        </aside>
-    </div>
-    <div id="modalOverlay" class="modal-overlay hidden">
-        <div id="contactCard" class="contact-card">
-          <span id="closeModal" class="close-button">&times;</span>
-          <h2>Contact Me</h2>
-          <p>Phone: 2392471130</p>
-          <p>Email: nmyeager805@gmail.com</p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/nicholas-yeager05" target="_blank">My LinkedIn</a></p>
-        </div>
-    </div>
-
-    <script src="scriptMain.js"></script>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="page">
+<header class="masthead">
+<a class="wordmark" href="#" aria-label="Nicholas Yeager, home">ny<span>.</span></a>
+<span class="masthead-note">A personal work in progress</span>
+<nav aria-label="Main navigation"><a href="#work">Work</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Say hello <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="intro-title">
+<div class="hero-copy">
+<p class="eyebrow"><span class="small-mark" aria-hidden="true">✳</span> Nicholas Yeager / Tuscaloosa, AL</p>
+<h1 id="intro-title">Software.<br>Systems.<br><em>Good questions.</em></h1>
+<p class="intro">I’m Nicholas, a computer science student with a philosophy minor. I build software and think about how we use it.</p>
+<p class="hero-detail">Most recently: data intelligence and AI tooling at Everpure. Before that: bringing wildfire simulation software back to life.</p>
+<div class="hero-links"><a class="solid-link" href="#work">Explore my work <span aria-hidden="true">↓</span></a><a class="text-link" href="Yeager-Resume.pdf" target="_blank" rel="noopener">Read my resume <span aria-hidden="true">↗</span><span class="sr-only"> (PDF, opens in a new tab)</span></a></div>
+</div>
+<aside class="hero-margin" aria-label="A little context">
+<figure class="portrait"><img src="me.jpg" alt="Nicholas Yeager wearing sunglasses" width="1242" height="2208" fetchpriority="high"><figcaption><span>Fig. 01 — Me, away from a terminal.</span><span aria-hidden="true">↖</span></figcaption></figure>
+<div class="margin-note"><span class="eyebrow">On my desk / September 2026</span><p>B.S./M.S. in Computer Science<br>University of Alabama<br>Expected May 2027</p><span class="handwritten">A little philosophy, too.</span></div>
+</aside>
+</section>
+<section class="indexed-section" id="work" aria-labelledby="work-title">
+<div class="section-heading"><span class="eyebrow">01 / Experience</span><h2 id="work-title">Recently, at work.</h2></div>
+<div class="section-content">
+<article class="experience">
+<div class="entry-meta"><span>May — Aug 2026</span><span>Santa Clara, CA</span></div>
+<h3>Everpure <span class="role">/ Data Intelligence</span></h3><p class="job-title">Software Engineering Intern</p>
+<p>I built file-system intelligence tooling for Pure1 Copilot: helping it answer questions about file types, workloads, growth, and anomalies across storage systems.</p>
+<p>That work connected SQL and dbt models in Snowflake to tools powered by the OpenAI API. I worked on the details that make an answer useful: correct scope, clear units, fresh data, and routing to the right tool.</p>
+<details><summary>Under the hood <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>I implemented incremental and latest-state models for file-system statistics, extensions, and size distributions. I validated results against source queries and built tests and evaluations to catch aggregation, duplicate-row, routing, and data-grounding issues, collaborating across Data Intelligence, DX, and Copilot engineering.</p></div></details>
+<p class="stack">SQL / dbt / Snowflake / OpenAI API / CI/CD</p>
+</article>
+<article class="experience">
+<div class="entry-meta"><span>Apr — Oct 2025</span><span>Tuscaloosa, AL</span></div>
+<h3>University of Alabama <span class="role">/ Geography</span></h3><p class="job-title">Software Development Researcher</p>
+<p>I led the restoration and compilation of FARSITE, a deprecated C++ wildfire modeling application, in a Linux-based WSL environment.</p>
+<p>Working with faculty across disciplines, I documented the build process and dependencies and helped adapt the software for Web GIS integration.</p>
+<p class="stack">C++ / Linux / WSL / Web GIS</p>
+</article>
+</div>
+</section>
+<section class="indexed-section" id="projects" aria-labelledby="projects-title">
+<div class="section-heading"><span class="eyebrow">02 / Selected projects</span><h2 id="projects-title">Things I’ve<br> put together.</h2><a class="text-link" href="https://github.com/nicholasyeager">Find me on GitHub <span aria-hidden="true">↗</span></a></div>
+<div class="section-content project-list">
+<article class="project"><div class="project-number" aria-hidden="true">A</div><div><p class="eyebrow">AI × Philosophy</p><h3>SocraticAI</h3><p>A chatbot built around Socratic questioning, helping users explore ethical and philosophical reasoning through conversation.</p><p>A React chat interface connects to local models through Ollama, with a Node.js / Express backend and MongoDB for conversation history and thematic progression.</p><details><summary>Why local models? <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>Running the model locally supports private, offline reasoning. Persistent conversation history lets the application carry a line of inquiry across sessions.</p></div></details><p class="stack">React / Node.js / Express / Ollama / MongoDB</p></div></article>
+<article class="project"><div class="project-number" aria-hidden="true">B</div><div><p class="eyebrow">Programming languages</p><h3>A Lisp interpreter</h3><p>From symbolic expressions to evaluated results. I built a recursive-descent parser and evaluation engine from scratch, supporting variable bindings and arithmetic operations.</p><div class="code-note"><code>(+ 1 (* 2 3)) <span>→ 7</span></code><span class="eyebrow">Read. Parse. Evaluate.</span></div><p class="stack">Language design / Recursion / Memory management</p></div></article>
+<article class="project"><div class="project-number" aria-hidden="true">C</div><div><p class="eyebrow">The personal web</p><h3>This little corner of the internet</h3><p>A place to collect what I’m working on, built with HTML, CSS, and JavaScript and hosted on GitHub Pages.</p><a class="text-link" href="https://github.com/nicholasyeager/nicholasyeager.github.io">View the source <span aria-hidden="true">↗</span></a></div></article>
+</div>
+</section>
+<section class="indexed-section" id="about" aria-labelledby="about-title">
+<div class="section-heading"><span class="eyebrow">03 / Outside the work</span><h2 id="about-title">A person,<br> as well.</h2></div>
+<div class="section-content about-content">
+<div class="about-copy"><p class="large-copy">Computer science gives me things to build. Philosophy gives me questions to keep asking.</p><p>I’m pursuing a B.S./M.S. in Computer Science at the University of Alabama, with a minor in philosophy and a 4.0 GPA. My interests meet around AI, reasoning, and the ethics of the systems we create.</p><p>Away from a screen, I enjoy hiking, reading, and spending time with my dog, Kitsune. Video games find their way into the mix, too.</p></div>
+<figure class="dog-photo"><img src="Kitsune.jpg" alt="Kitsune, Nicholas’s dog, relaxing on a couch" width="1242" height="2208" loading="lazy"><figcaption>Fig. 02 — Kitsune. An essential part of the page.</figcaption></figure>
+<div class="toolbox"><h3>Tools I work with</h3><dl><div><dt>Languages</dt><dd>C++, C, JavaScript, Python, SQL, Clojure, Lisp</dd></div><div><dt>Web & AI</dt><dd>React, Node.js, Express, Ollama, OpenAI API</dd></div><div><dt>Data & systems</dt><dd>Snowflake, dbt, MongoDB, Git, Linux, WSL, CI/CD</dd></div></dl></div>
+</div>
+</section>
+<section class="contact" id="contact" aria-labelledby="contact-title"><span class="eyebrow">04 / Keep in touch</span><div class="contact-row"><h2 id="contact-title">Have a good question?</h2><a class="contact-arrow" href="mailto:nmyeager805@gmail.com" aria-label="Email Nicholas Yeager">↗</a></div><p>I’d love to talk software, AI, philosophy, or something you’re building.</p><a class="email" href="mailto:nmyeager805@gmail.com">nmyeager805@gmail.com</a><div class="contact-links"><a href="https://github.com/nicholasyeager">GitHub ↗</a><a href="https://www.linkedin.com/in/nicholas-yeager05">LinkedIn ↗</a><a href="Yeager-Resume.pdf" target="_blank" rel="noopener">Resume (PDF) ↗<span class="sr-only"> (opens in a new tab)</span></a></div></section>
+</main>
+<footer><span>© <span id="year">2026</span> Nicholas Yeager</span><span>Made to be a little personal.</span><a href="#">Back to top ↑</a></footer>
+</div>
 </body>
 </html>
